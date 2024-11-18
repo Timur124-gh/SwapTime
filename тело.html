@@ -3,64 +3,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SwapTime - Платформа для аренды и обмена вещей. Экономия, экологичность, безопасность.">
   <title>SwapTime - Аренда и обмен вещей</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css"> <!-- Стили для оформления страницы -->
+  <script src="chat.js" defer></script> <!-- Для чата (если потребуется) -->
 </head>
 <body>
+  <!-- Шапка сайта -->
   <header>
-    <div class="logo">SwapTime</div>
     <nav>
+      <div class="logo">
+        <h1>SwapTime</h1>
+      </div>
       <ul>
-        <li><a href="#why">Почему выбрать?</a></li>
-        <li><a href="#categories">Категории</a></li>
-        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#catalog">Ассортимент</a></li>
+        <li><a href="#delivery">Доставка</a></li>
         <li><a href="#contact">Контакты</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#collaboration">Сотрудничество</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="why" class="info-section">
-    <h2>Почему выбрать SwapTime?</h2>
-    <ul>
-      <li><strong>Экономия:</strong> аренда вместо покупки.</li>
-      <li><strong>Экологичность:</strong> снижение потребности в новых товарах.</li>
-      <li><strong>Прозрачность:</strong> условия сделок и проверенные пользователи.</li>
-    </ul>
-  </section>
+  <!-- Основной контент -->
+  <main>
+    <!-- О нас -->
+    <section id="about">
+      <h2>О SwapTime</h2>
+      <p>SwapTime — это онлайн-платформа для аренды и обмена вещей, созданная для экологичного и экономичного потребления. Мы предлагаем удобное решение для тех, кто ценит экономию, удобство и осознанное потребление.</p>
+      <h3>Почему выбрать SwapTime?</h3>
+      <ul>
+        <li>Экономия: аренда вместо покупки вещей для временного использования.</li>
+        <li>Экологичность: снижает потребность в производстве новых товаров и уменьшает отходы.</li>
+        <li>Прозрачность и безопасность: все условия сделки видны заранее, система проверок и страхования сделок.</li>
+        <li>Удобство: интуитивный интерфейс и быстрая аренда в несколько кликов.</li>
+      </ul>
+    </section>
 
-  <section id="categories" class="info-section">
-    <h2>Наш ассортимент</h2>
-    <div class="category-list">
-      <div class="category">Электроника</div>
-      <div class="category">Спортинвентарь</div>
-      <div class="category">Инструменты</div>
-      <div class="category">Товары для детей</div>
-      <div class="category">Товары для животных</div>
-    </div>
-  </section>
+    <!-- Ассортимент -->
+    <section id="catalog">
+      <h2>Наш ассортимент</h2>
+      <p>Мы предлагаем аренду широкого спектра товаров и услуг:</p>
+      <ul>
+        <li>Электроника</li>
+        <li>Спортивный инвентарь</li>
+        <li>Товары для мероприятий</li>
+        <li>Инструменты и техника</li>
+        <li>Детские товары</li>
+        <li>Хобби и творчество</li>
+        <li>Товары для животных</li>
+        <li>Услуги: аренда с инструкторами, техническая помощь, организация мероприятий, фото- и видеосъемка, услуги нянь, репетиторов, водителей, стилистов и мастер-классов.</li>
+      </ul>
+    </section>
 
-  <section id="reviews" class="info-section">
-    <h2>Отзывы пользователей</h2>
-    <div class="reviews">
-      <div class="review">
-        <p>"Отличный сервис, очень удобный интерфейс!"</p>
-        <div class="rating">
-          <span>⭐️⭐️⭐️⭐️⭐️</span>
+    <!-- Доставка -->
+    <section id="delivery">
+      <h2>Условия доставки</h2>
+      <p>Доставка осуществляется с помощью <strong>Яндекс.Доставка</strong>. Все заказы доставляются быстро и безопасно по указанному адресу.</p>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact">
+      <h2>Контакты</h2>
+      <p>Если у вас есть вопросы, свяжитесь с нами:</p>
+      <ul>
+        <li>Телефон: <a href="tel:+789686132962">+7 (896) 861-32-96</a></li>
+        <li>Email: <a href="mailto:swaptime@gmail.com">swaptime@gmail.com</a></li>
+      </ul>
+    </section>
+
+    <!-- Социальные сети -->
+    <section id="social-media">
+      <h2>Мы в соцсетях</h2>
+      <p>Следите за нами в социальных сетях:</p>
+      <ul>
+        <li><a href="https://www.instagram.com/SwapTime">Instagram</a></li>
+        <li><a href="https://www.facebook.com/SwapTime">Facebook</a></li>
+        <li><a href="https://www.twitter.com/SwapTime">Twitter</a></li>
+      </ul>
+    </section>
+
+    <!-- Сотрудничество с Альфа-Страхование -->
+    <section id="collaboration">
+      <h2>Сотрудничество с Альфа-Страхование</h2>
+      <p>Мы сотрудничаем с Альфа-Страхование, чтобы гарантировать безопасность всех сделок на нашей платформе. Все сделки застрахованы и защищены.</p>
+    </section>
+
+    <!-- Чат с поддержкой -->
+    <section id="chat">
+      <div class="chat-container">
+        <button id="chat-button">Чат с поддержкой</button>
+      </div>
+    </section>
+
+    <!-- Раздел отзывов -->
+    <section id="reviews">
+      <h2>Отзывы пользователей</h2>
+      <div class="rating">
+        <h3>Рейтинг продавцов и покупателей</h3>
+        <p>Оцените нашу платформу:</p>
+        <div class="stars">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">☆</span>
         </div>
       </div>
-      <div class="review">
-        <p>"Очень полезный сайт для аренды вещей на короткий срок."</p>
-        <div class="rating">
-          <span>⭐️⭐️⭐️⭐️⭐️</span>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <footer id="contact">
-    <p>Контакты: support@swaptime.com</p>
+  <!-- Подвал сайта -->
+  <footer>
+    <p>&copy; 2024 SwapTime. Все права защищены.</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
